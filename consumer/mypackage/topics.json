@@ -1,0 +1,52 @@
+{
+    "topics": {
+        "hubAdminEvents": ["DevicePong"],
+        "hubStatus": ["HubStateUpdated"],
+        "scenarioEvents_gen2": ["NfcScenarioSaved", "NfcScenarioDeleted"],
+        "hubEvents": ["DeviceStateUpdated", "DeviceJoined", "DeviceLeft"],
+        "deviceEvents": [
+            "CameraCreated",
+            "CameraDeleted",
+            "CameraUpdated",
+            "CameraDeletedByOwner",
+            "CameraReceivingAccepted",
+            "CameraReceivingRejected",
+            "DeviceAdded",
+            "DeviceDeleted",
+            "DeviceDeletedByOwner",
+            "DeviceReceivingAccepted",
+            "DeviceReceivingRejected",
+            "SharedCameraReceived",
+            "SharedCameraRevoked",
+            "SharedCameraUpdated",
+            "SharedDeviceReceived",
+            "SharedDeviceUpdated",
+            "SharedDeviceRevoked",
+            "InviteSent",
+            "InviteRevoked",
+            "DeviceUpdated",
+            "DeviceBoundToCamera",
+            "DeviceUnboundFromCamera",
+            "DeviceIdCreated"
+        ],
+        "bankEvents": ["MoneyAdded", "MoneyRemoved"],
+        "nfcEvents": ["CardIdAdded", "CardIdRemoved"],
+        "scenarioTriggeredEvents": ["GuardScenarioTriggered"],
+        "userEvents_gen2": [
+            "UserCreated",
+            "HomeCreated",
+            "HomeDeleted",
+            "HomeDeletedByOwner",
+            "HomeRevoked",
+            "HomeUpdated",
+            "HomeGuarded",
+            "HomeShared",
+            "SharedHomeReceived",
+            "DeviceAddedInSharedHome",
+            "DeviceRemovedInSharedHome"
+        ],
+        "deviceReplaceEvents": ["DeviceReplaced"],
+        "detectionClusterEvents": ["FaceDetectionActivated","FaceDetectionDeactivated"],
+        "cameraStatusEvents": ["RepublishedStreamOnline", "RepublishedStreamOffline"]
+    }
+}
